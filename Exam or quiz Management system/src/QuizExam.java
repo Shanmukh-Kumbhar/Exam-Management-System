@@ -182,7 +182,7 @@ public QuizExam(String rollNo) {
                  if(sec==60){
                  sec=0;
                  min++;
-                 if(min==1){
+                 if(min==10){
                      time.stop();
                      answerCheck();
                      submit();
